@@ -1,0 +1,19 @@
+header{ background-color: lightblue;}
+body{font-family: 'Times New Roman', Times, serif;}
+    h1{color: burlywood; font-weight: bold;}
+    h2{color:burlywood; font-weight: bold;}
+    h3{color:burlywood; font-weight: bold;} 
+    h4{color:burlywood; font-weight: bold;}
+    h5{color:burlywood; font-weight: bold;} 
+    h6{color:burlywood; font-weight: bold;}
+    section{background-color: rgb(34, 202, 110);
+        color: blueviolet;
+    
+        margin: 4cm 4cm 4cm 4cm;
+    
+        padding: 25px 50px;
+    
+        border: 15px solid red;
+        }
+    
+
