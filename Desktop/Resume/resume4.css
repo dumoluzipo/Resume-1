@@ -1,24 +1,63 @@
 header{ background-color: gainsboro;}
 body{font-family: 'Times New Roman', Times, serif;}
-    h1{color: burlywood; font-weight: bold;background-color: whitesmoke;}
-    h2{color:burlywood; font-weight: bold;background-color:whitesmoke;}
-    h3{color:burlywood; font-weight: bold;background-color:whitesmoke;} 
-    h4{color:burlywood; font-weight: bold;background-color:whitesmoke;}
-    h5{color:burlywood; font-weight: bold;background-color:whitesmoke;} 
-    h6{color:burlywood; font-weight: bold;background-color:whitesmoke;}
-    p{margin-left: 20px; margin-right: 20px;}
-    section{background-color: rgb(187, 245, 213);
+h1{color: burlywood; font-weight: bold;background-color: whitesmoke;}
+h2{color:burlywood; font-weight: bold;background-color:whitesmoke;}
+h3{color:burlywood; font-weight: bold;background-color:whitesmoke;} 
+h4{color:burlywood; font-weight: bold;background-color:whitesmoke;}
+h5{color:burlywood; font-weight: bold;background-color:whitesmoke;} 
+h6{color:burlywood; font-weight: bold;background-color:whitesmoke;}
+ul{ background-color: gainsboro;
+    
+
+}
+p{margin-left: 20px; margin-right: 20px;}
+section{background-color: rgb(187, 245, 213);
         color: blueviolet;
-    
         margin:20px ;
-    
         padding:10px ;
-    
         border:1px solid red;
         }
-    .circle-image{
+.circle-image{
         border-radius: 50%;
         width: 100px;
         height: 100px;
     }    
-
+.back-to-top-button{
+    position: fixed;
+    right: 80px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: grey;
+    
+}
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar li{
+    display: inline;
+    margin-right: 20px;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+#header {
+    position: relative;
+    overflow: hidden;
+}
+#header img{
+    position: absolute;
+    top:-20px
+    left: -20px;
+    z-index: 1;
+}
