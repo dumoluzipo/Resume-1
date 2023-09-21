@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
         
-    <link rel="stylesheet" href="resume4.css">
 
-    <title>resume</title>
+
+    <title>resume</title><a id="top">
     <link rel="icon" href="Images/favicon.ico" type="x-icon">
-</head>
+</a>
+</header>
 <body> 
+    <section>
     <header>
 
+        <link rel="stylesheet" href="resume4.css"
+        
         <h1><b>DUMO LIHLE LUZIPO</b></h1>
         <p>An introductory personal statement.</p></header>
         <div>
-        <p><aside> <img src="Images/IMG_3797 (1).jpg" alt="my headshot" width="350" height="500" title="my headpic">
+        <p><aside> <img src="Images/IMG_3797 (1).jpg" alt="my headshot" width="350" height="500" title="my headpic" class="circle-image">
         </aside></p>
-        <p><ul>
+        <nav id="navbar">
+        <ul>
             <li><a href="#Education">Education</a></li>
             <li><a href="#Experience">Experience</a></li>
             <li><a href="#Skills">Skills</a></li>
         </ul>
-        </p>
+        </nav>
 
         <article>
     <h2 id="Education">Education</h2>
 
     <h3 id="Intro to web">Intro to web<a href="https://www.codespace.co.za/programs" target="_blank">CodeSpace Academy</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     <h4 id="Qualification">Qualification</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -57,6 +62,33 @@
 
     </ul>
         </p>
-    </footer>    
+     <a href="#top" class="back-to-top"> <img src="Images/arrow_up_icon.png" alt="back-to-top" width="20" height="20">
+        
+        <h9/>Customer Details</h9>
+        <div class="contact-form">
+            <form action="https://formsubmit.io/send/lihleluzipo14@gmail.com"
+            method="post">
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="General Inquiry">General Inquiry</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group"> 
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+        </form>
+        </div>
+    
+    </a>   
+    </footer>  
+    </section>
 </body>
+
 </html>
