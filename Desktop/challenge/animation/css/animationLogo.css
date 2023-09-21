@@ -5,6 +5,7 @@
   50%{border-radius: 60% ; left: 0px; top: 200px;filter: grayscale(50%);}
   100%{background-color: whitesmoke; left: 0px; top: 0px;transform: translateX(100%);filter: grayscale(0);}
 }
+
 /*.animated-image{
   background-color:black;
 }
@@ -23,6 +24,7 @@
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
 }    
+
 .animated-image:hover{
   animation-play-state: running;
 }
