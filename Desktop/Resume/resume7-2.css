@@ -18,6 +18,25 @@
 .profile{
     display: inline-block;
 }
+@media  (max-width: 767px) {
+    .profile img {
+        content: url('Images/PHOTO-2023-09-23-19-11-10\ \(2\).jpg'); 
+        
+    
+    
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .profile img {
+        content: url('Images/PHOTO-2023-09-23-19-11-10\ \(2\).jpg'); 
+    }
+}
+@media (min-width: 1024px)  {
+    .profile img {
+        content: url('Images/PHOTO-2023-09-23-19-11-10.jpg'); 
+    }
+}
+
 .profile img {
     height: 100px;
     width: 100px;
