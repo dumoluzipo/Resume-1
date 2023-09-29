@@ -1,0 +1,143 @@
+.banner{
+    background-image: url('C:\Users\SETHU\Desktop\Digital_Resume\images\workplace-background.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* /* @media (min-width:300px) {
+    .banner {
+        content: url("back-ground.jpeg");
+}
+}
+@media (min-width:769px) {
+    .banner{
+        content: url('workplace-background.jpg');
+    } 
+    
+} */
+h1 h2 h3 h4 h5 h6 {
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+.picture{
+    display: inline;
+}
+.picture img {
+    border-radius: 50%;
+    
+}
+.header-h1{
+    background-color: rgb(150, 150, 146);
+}
+.first-p{
+    background-color: rgb(150, 150, 146);
+}
+
+header {
+    background-image: url();
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+body{
+    background-color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+
+}
+.nav-bar{
+    background-color: black;
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    background-color:black;
+    color: gray;
+}
+.nav-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-li{
+    display: inline;
+    margin-right: 20px;
+}
+.navbar a{
+    color: gray;
+    text-decoration: none;
+}
+main{
+    padding: 1 rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+#details{
+    border-bottom: solid;
+}
+
+#education{
+    padding-left: 40%;
+    border-bottom: solid ;
+}
+.grid-container2{
+    display: grid;
+    width: 500;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 3 100px;
+    gap: 2px;
+    
+    }
+.con-item{
+    border-left: solid;
+}
+#Experience{
+    padding-left: 40%;
+    border-bottom: solid;
+}
+.grid-experience{
+    width: 500;
+}
+.grid-containers{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 2 110px;
+
+}
+.grid-experience2{
+    border-left: solid;
+}
+.flex-section{
+    width: 400;
+}
+#Skills{
+    font-size: 110%;
+    border-bottom: solid;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.skill{
+    align-items: center;
+    gap: 3px;
+    border-left: solid;
+}
